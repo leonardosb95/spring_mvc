@@ -87,7 +87,31 @@ Configurando o TransactionManager
 		
 	Spring não cria o banco de dados
 		somente as tabelas
-						
+					
+-----------------AULA 3-  Cadastro de preços do produto-----------------------------------------------	
+
+OneToMany
+	um produto para varios preços
+	
+@ElementCollection
+	Uma coleção de elementos
+	
+@Embeddable
+	Para que o spring possa portar e relacionar elementos de preço
+	
+	
+JSTL
+	para utilizarmos temos que importar no arquivo JSP
+		<!-- Import da taglib -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+
+ModelAndView
+	retornamos as paginas
+	retornamos objetos para as paginas
+	
+	
+
 
 		
 		
