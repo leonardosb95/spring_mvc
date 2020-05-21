@@ -1,0 +1,94 @@
+-------COMEÇANDO COM SPRING MVC-----------------------------------
+jboss forge
+	Cria toda uma estrutura para somente o programador codificar
+	
+	
+forge 
+	abre um terminal no /bin
+	forge
+	project-new --named <nome_prj>
+		cria-se um novo projeto baseado no maven
+		
+
+apache tomcat
+	servers>escolha apache> versão do tomcat
+	
+	
+configurar o tomcat para receber requisições
+		Usando servlet
+			Spring MVC já vem com servlet
+		getServletConfigClasses 
+			pede uma classe de array
+		
+		getServletMappings 
+			pede um array com os mapeamentos
+			
+		AppWebConfiguration
+			classe de configuração do servlet
+			
+		@EnableWebMvc
+			habilita a classe de configuração do Spring
+			
+		@ComponentScan
+		Permite que o spring encontre os controllers
+			automaticamente
+			
+			
+Pasta WEB-INF
+	É uma pasta protegida pelo servidor
+		os arquivos não podem ser acessados diretamente
+	Deixar as views dentro dela para que usuario não acesse diretamente
+	tem que passar pelo controller primeiro
+	
+	
+metodo na classe de configuração para encontrar as views
+	metodo que retorna InternalResourceViewResolver
+	@Bean
+		retorno de chamada do metodo
+		possa ser gerenciado pelo SpringMVC
+		
+		
+
+-----------------AULA 2- CADASTRO DE PRODUTOS-----------------------------------------------
+para que o spring salve a entidade no banco
+	precisa de um gerenciador de entidade
+		EntityManager
+			persitir a entidade no banco
+
+@Autowired
+	serve para que nós não se preocupemos em criar
+		manualmente o ProduoDAO no Controller
+		cria um instancia do objeto que foi anotado
+			Injenção de dependência
+				joga toda responsabilidade de instanciar ou configurar o objeto para o servidor
+		@Repository
+			Spring gerencia o ProdutoDAO
+			
+		Spring com JPA
+			criamos um unico metodo
+			será gerenciado pelo Spring
+			era o EntityManager
+			precisa de um adapter
+				passando o que o hibernate especifica
+			criamos um datasource
+				contem as configurações que o banco de dados precisa
+			Properties
+				para poder setar algumas configurações
+					daileto
+						usado para comunicação com o banco de dados
+						
+Configurando o TransactionManager
+	TransactionManager
+		EntityManager possa gerenciar transações de nossas entidades
+	
+	EnableTransactionManagement
+		Spring ativa o gerenciamento de transações
+		reconhece o TransactionManager
+		
+	Spring não cria o banco de dados
+		somente as tabelas
+						
+
+		
+		
+		
