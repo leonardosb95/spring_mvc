@@ -87,8 +87,24 @@ Configurando o TransactionManager
 		
 	Spring não cria o banco de dados
 		somente as tabelas
+		
+--------------------Aula 4-Listando os produtos------------------------------------------------------------		
 						
-
+getResultList()
+	ira criar uma lista
+	com os resultados
+	
+	
+ModelAndView
+	relacionamento de um modelo
+	visualização view
+	disponilizar objeto qualquer para view
+	redirecionamento de páginas
+	
+	
+Encoding
+	filtros de requisição para caracteres especiais	
+	
 		
 		
 		
