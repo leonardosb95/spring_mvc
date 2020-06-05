@@ -105,6 +105,26 @@ ModelAndView
 Encoding
 	filtros de requisição para caracteres especiais	
 	
+	
+-------------Aula 5- Redirect com Escopo de Flash-----------------------------------------------------------------
+
+Quando retornamos uma string
+	o Spring procura uma pagina com o mesmo nome
+	
+redirect 
+	passa um status para o navegador
+		302
+	carregar uma outra pagina
+		esquecer dados anteriores
+	
+enviar informações entre requisições
+	RedirectAttributtes
+		atributo do tipo flash
+			addFlashAttribute 
+				recebe a chave, e a mensagem
+		duram até a proxima requisição de deixam de existir
+
+	
 		
 		
 		
