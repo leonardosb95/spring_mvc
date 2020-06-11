@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="" />
+    <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,5 +50,13 @@
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
     <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1591317344122" />
+    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1591358980178">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1591358980178" />
+    <state x="-1264" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1591358966274">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state x="-1264" y="257" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1591358966274" />
   </component>
 </project>

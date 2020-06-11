@@ -123,8 +123,19 @@ enviar informações entre requisições
 			addFlashAttribute 
 				recebe a chave, e a mensagem
 		duram até a proxima requisição de deixam de existir
+		
 
-	
+
+--------------Aula 6-Validação e conversão de dados----------------------------------------------------------------------
+Classe do proprio Spring -ValidationUtils
+	metodos que validam dados	
+		rejectIfEmpty()
+			rejeite se for vazio
+	precisamos usar a dependência Bean Validation
+		Hibernate Validator
+		configurar o projeto 
+		
+	@InitBinder
 		
 		
 		
