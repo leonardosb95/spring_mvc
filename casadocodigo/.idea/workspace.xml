@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_2_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_15.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casadocodigo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/casadocodigo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="aula5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1csV30cp5fQvygyPTBL55WBpZO1" />
@@ -30,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
