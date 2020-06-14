@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_2_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula8/casadocodigo/casadocodigo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casadocodigo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/casadocodigo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/daos/ProdutoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/JPAConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/JPAConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/ServletSpringMvc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/ServletSpringMvc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/dao/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/daos/ProdutoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Preco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Preco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/TipoPreco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/TipoPreco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/validation/ProdutoValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/validation/ProdutoValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +55,54 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="casadocodigo []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,17 +117,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog" timestamp="1591317344122">
+    <state x="-1506" y="88" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592149883333">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
-    <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1591317344122" />
-    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1591358980178">
+    <state x="-1506" y="88" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592149883333" />
+    <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog" timestamp="1592145724422">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1591358980178" />
-    <state x="-1264" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1591358966274">
+    <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592145724422" />
+    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1592149793280">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
-    <state x="-1264" y="257" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1591358966274" />
+    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592149793280" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1592150066785">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066785" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1592150066784">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066784" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1592150066784">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066784" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1592150066785">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066785" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1592150066785">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066785" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1592150066785">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066785" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1592150066785">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066785" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1592150066785">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592150066785" />
+    <state x="-1264" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1592144389284">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state x="-1264" y="257" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592144389284" />
+    <state x="-1264" y="165" width="607" height="536" key="find.popup" timestamp="1592147762551">
+      <screen x="-1920" y="-87" width="1920" height="1040" />
+    </state>
+    <state x="-1264" y="165" width="607" height="536" key="find.popup/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1592147762551" />
   </component>
 </project>

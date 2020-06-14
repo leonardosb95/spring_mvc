@@ -136,6 +136,43 @@ Classe do proprio Spring -ValidationUtils
 		configurar o projeto 
 		
 	@InitBinder
+	
+	
+-------------Mais validações-Aula7---------------------------------------------------------------------------------------------
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>	
+	para exibir mais mensagens de erros
+		form:errors
 		
+message.properties
+	arquivo para carregar mensagens de erro
+	
+form:form
+	da biblioteca do Spring
+	commandName
+		referência a qual entidade aquele formulario se refere
+			Exemplo
+				commandName="produto"
+				
+messages.properties
+	colocamos os campos requiridos
+	configuramos o UTF-8
+	
+Spring gerar automaticamente a rota da action
+	caso o controller mude a rota do formulario também muda
+		taglib
+			<%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
+			mvcUrl
+				passsamos as iniciais para se referir a tal controller
+					"${s:mvcUrl('PC#gravar').build()}"
+					
+				
+	
+	
+	
+
+	
+	
+
+
 		
 		

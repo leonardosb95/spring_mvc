@@ -24,14 +24,8 @@ public class JPAConfiguration {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setUsername("root");
 		dataSource.setPassword("boladeprata");
-
 		dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo?useTimezone=true&serverTimezone=UTC");
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-
-
-		dataSource.setUrl("jdbc:mysql://localhost/casadocodigo");
-		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-
 		factoryBean.setDataSource(dataSource);
 
 		Properties props = new Properties();
@@ -40,9 +34,8 @@ public class JPAConfiguration {
 		props.setProperty("hibernate.hbm2ddl.auto", "update");
 
 		factoryBean.setJpaProperties(props);
-
 		factoryBean.setPackagesToScan("br.com.casadocodigo.loja.models");
-
+		
 		return factoryBean;
 	}
 
