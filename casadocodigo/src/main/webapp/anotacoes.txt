@@ -165,6 +165,25 @@ Spring gerar automaticamente a rota da action
 				passsamos as iniciais para se referir a tal controller
 					"${s:mvcUrl('PC#gravar').build()}"
 					
+
+----------------Aula 8 Trabalhar com datas---------------------------------
+Duas classes principais para trabalhar com datas
+	Date
+	Calendar
+		mais recente simples
+		formato padrão é internacional
+			@DateTimeFormat(pattern="dd/MM/yyyy")
+				Spring consiga converter corretamente
+		@DateTimeFormat
+			cria um metodo que possa configurar toda configuração de data
+			classe AppWebConfiguration
+				metodo que retorne FormattingConversionService
+				
+ form:input
+ 	caso tenha um erro, não perdemos os dados dentro do input
+ 	eles se mantem
+			
+						
 				
 	
 	
