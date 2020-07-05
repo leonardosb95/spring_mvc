@@ -209,6 +209,17 @@ guardar arquivos no servidor
 	                sobrescrever esse metodo
 
 -----------------Salvando servidor----------------------------------------------
+getServletContext
+    extrair o contexto atual do usuario
+getRealPath
+    retorna o caminho de determinada pasta do servidor
+
+Nenhum Bean qualificado
+    componentScan
+    vai na classe de configuração do Spring
+        AppWebConfiguration
+
+
 
 	
 	

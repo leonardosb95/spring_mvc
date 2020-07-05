@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import br.com.casadocodigo.loja.infra.FileSaver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -26,6 +27,9 @@ public class ProdutosController {
 	
 	@Autowired
 	private ProdutoDAO dao;
+
+	@Autowired
+	private FileSaver fileSaver;
 	
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
@@ -49,6 +53,10 @@ public class ProdutosController {
 		if(result.hasErrors()) {
 			return form(produto);
 		}
+
+		String path= fileSaver.write("arquivos-sumario",sumario);
+		System.out.println(path);
+		produto.setSumarioPath(path);
 		
 		System.out.println(produto);
 		dao.gravar(produto);

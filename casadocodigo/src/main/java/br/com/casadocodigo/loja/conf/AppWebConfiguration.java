@@ -15,9 +15,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.casadocodigo.loja.controllers.HomeController;
 import br.com.casadocodigo.loja.dao.ProdutoDAO;
+import br.com.casadocodigo.loja.infra.FileSaver;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses = { HomeController.class, ProdutoDAO.class })
+@ComponentScan(basePackageClasses = { HomeController.class, ProdutoDAO.class, FileSaver.class })
 public class AppWebConfiguration {
 
 	@Bean
@@ -41,17 +42,19 @@ public class AppWebConfiguration {
 
 	@Bean
 	public FormattingConversionService mvcConversionService() {
-		DefaultFormattingConversionService conversionService= new DefaultFormattingConversionService();
-		DateFormatterRegistrar formatterRegistrar= new DateFormatterRegistrar();//Responsavel pelo serviço de conversão de formato
-		formatterRegistrar.setFormatter(new DateFormatter("dd/MM/yyyy"));//registro do formato de data usado para a conversão
-		formatterRegistrar.registerFormatters(conversionService);//Guarda o padrão de data
+		DefaultFormattingConversionService conversionService = new DefaultFormattingConversionService();
+		DateFormatterRegistrar formatterRegistrar = new DateFormatterRegistrar();// Responsavel pelo serviço de
+																					// conversão de formato
+		formatterRegistrar.setFormatter(new DateFormatter("dd/MM/yyyy"));// registro do formato de data usado para a
+																			// conversão
+		formatterRegistrar.registerFormatters(conversionService);// Guarda o padrão de data
 		return conversionService;
-		
+
 	}
 
 	@Bean
-	public MultipartResolver multipartResolver(){
-	return new StandardServletMultipartResolver();
+	public MultipartResolver multipartResolver() {
+		return new StandardServletMultipartResolver();
 	}
 
 }
