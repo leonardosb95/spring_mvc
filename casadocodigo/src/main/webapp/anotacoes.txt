@@ -182,10 +182,34 @@ Duas classes principais para trabalhar com datas
  form:input
  	caso tenha um erro, não perdemos os dados dentro do input
  	eles se mantem
-			
+-----------------Aula 9  Enviando arquivos ao servidor----------------------------------------------			
 						
-				
-	
+guardar arquivos no servidor
+			banco aceita byte como arquivo, teria que converter ele
+			guardar na pasta do sistema apenas
+			Spring envia o objeto para o controller
+				MultipartFile
+					para pegar o nome do arquivo
+						getOriginalFilename()	 		
+			requisições multipart
+				enctype
+				fica no form
+
+			 temos que configurar um metodo na classe App-WC
+			    para que o spring reconheça o multipart
+
+			 MultipartResolver
+			    Resolvedor de multimidia
+			        PDF,imagem
+
+			 ServletSpringMVC
+			    classe de inicialização da aplicação
+	            cria-se um metodo para fazer a conversão do multipart
+	            customizeRegistration
+	                sobrescrever esse metodo
+
+-----------------Salvando servidor----------------------------------------------
+
 	
 	
 

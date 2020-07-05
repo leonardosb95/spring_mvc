@@ -21,15 +21,15 @@ public class Produto {
 	private String titulo;
 	private String descricao;
 	private int paginas;
-	
+
 	@ElementCollection
 	private List<Preco> precos;
-	
-	
-	//@DateTimeFormat(pattern="dd/MM/yyyy")
-	@DateTimeFormat// Configuração padrão para conversão de datas, na classe AppWebConfiguration
-	private Calendar dataLancamento; 
 
+	private String sumarioPath;
+
+	// @DateTimeFormat(pattern="dd/MM/yyyy")
+	@DateTimeFormat // Configuração padrão para conversão de datas, na classe AppWebConfiguration
+	private Calendar dataLancamento;
 
 	public int getId() {
 		return id;
@@ -70,7 +70,6 @@ public class Produto {
 	public void setPrecos(List<Preco> precos) {
 		this.precos = precos;
 	}
-	
 
 	public Calendar getDataLancamento() {
 		return dataLancamento;
@@ -78,6 +77,14 @@ public class Produto {
 
 	public void setDataLancamento(Calendar dataLancamento) {
 		this.dataLancamento = dataLancamento;
+	}
+
+	public String getSumarioPath() {
+		return sumarioPath;
+	}
+
+	public void setSumarioPath(String sumarioPath) {
+		this.sumarioPath = sumarioPath;
 	}
 
 	@Override
