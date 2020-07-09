@@ -219,10 +219,12 @@ Nenhum Bean qualificado
     vai na classe de configuração do Spring
         AppWebConfiguration
 
+----------------- URLs amigáveis aula 10----------------------------------------------
 
-
-	
-	
+	<td><a href="${s:mvcUrl('PC#detalhe').arg(0,produto.id).build()}">${produto.titulo }</a></td>
+	    para enviar um parametro para o metodo
+	@PathVariable
+	    para que possamos passar o /na url
 
 	
 	
