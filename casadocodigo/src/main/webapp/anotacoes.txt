@@ -229,7 +229,40 @@ Nenhum Bean qualificado
 -----------------Aula 11 Expondo atributos no JSP----------------------------------------------
 	
 	
+	
+-----------------Aula 12  Escopo sessão-----------------------------------------------------------------------
+
+Escopo Sessão
+	@Component 
+		é um bean
+		@Scope
+			podemos configurar um scopo para nosssa aplicação
+			toda vez que entramos numa aplicação, os servidores criam uma sessão
+				SCOPE_SESSION
+					cria uma instancia para cada usuario do carrinho de compras
+				SCOPE_REQUEST
+					cada requisição que chegar no nosso controller
+						tem que se criar um controller novo
+		Escopo default é o escopo de aplicação
+					
+			
+		
+	
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 		
 		

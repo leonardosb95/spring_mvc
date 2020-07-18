@@ -3,10 +3,13 @@ package br.com.casadocodigo.loja.models;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.WebApplicationContext;
 
 
 @Component// Para que o Spring possa reconhecer esse cara, não sendo um DAO, Entity e etc..
+@Scope(value = WebApplicationContext.SCOPE_SESSION)// Escopo de sessão, cria-se um novo carrinho de compras para cada usuario
 public class CarrinhoCompras {
 
 	private Map<CarrinhoItem, Integer> itens = new LinkedHashMap<>();//Para busca um item de determinada lista
