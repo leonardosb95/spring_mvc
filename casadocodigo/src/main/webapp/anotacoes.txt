@@ -226,6 +226,7 @@ Nenhum Bean qualificado
 	@PathVariable
 	    para que possamos passar o /na url
 
+-----------------Aula 11 Expondo atributos no JSP----------------------------------------------
 	
 	
 

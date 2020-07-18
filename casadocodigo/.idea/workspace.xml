@@ -3,16 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/dao/ProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/detalhe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/detalhe.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/JPAConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/JPAConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/ProdutosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/dao/ProdutoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Preco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Preco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/TipoPreco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/TipoPreco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/Produto.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,22 +16,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="aula9" />
+        <entry key="$PROJECT_DIR$/.." value="aula11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1csV30cp5fQvygyPTBL55WBpZO1" />
+  <component name="ProjectId" id="1edDIW6ubF4IASodjWb9WHbpvt8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,92 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/apache-maven-3.3.9" />
-    <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\Spring-mvc\casadocodigo\src\main\webapp\WEB-INF\views\produtos" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="TomcatRunner-By-Camtwo" factoryName="Tomcat Runner">
-      <option name="TomcatRunnerV001-Modules" value="{&quot;modules&quot;:[]}" />
-      <option name="TomcatRunnerV001-TomcatInstallation" value="C:/apache-tomcat-10.0.0-M3" />
-      <option name="TomcatRunnerV001-VmArgs" value="" />
-      <option name="TomcatRunnerV001-PassParentEnvVars" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 7" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="adminPort" value="8005" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="contextPath" value="/casadocodigo" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="moduleName" value="casadocodigo" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8085" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat 7.0.103" />
-          <option name="number" value="0" />
-          <option name="path" value="C:\Users\Leonardo\Downloads\apache-tomcat-7.0.103" />
-          <option name="version" value="7.0.103.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="adminPort" value="8005" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="contextPath" value="/casadocodigo" />
-      <option name="docBase" value="C:\workspace\Spring-mvc\casadocodigo" />
-      <option name="envOptions" />
-      <option name="moduleName" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat 7.0.103" />
-          <option name="number" value="0" />
-          <option name="path" value="C:\Users\Leonardo\Downloads\apache-tomcat-7.0.103" />
-          <option name="version" value="7.0.103.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="last_opened_file_path" value="D:/porto-seguro/nova-portonet" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,129 +41,25 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="" />
-      <created>1591317084426</created>
+      <created>1594642498174</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591317084426</updated>
+      <updated>1594642498174</updated>
     </task>
     <servers />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-1731" y="215" key="#HTTP_Proxy" timestamp="1594159936558">
+    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1594741532918">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
-    <state x="-1731" y="215" key="#HTTP_Proxy/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594159936558" />
-    <state x="-1506" y="88" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594255041561">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1506" y="88" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594255041561" />
-    <state x="-1155" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1593954314166">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1155" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593954314166" />
-    <state x="-1227" y="122" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1594160355462">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1227" y="122" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594160355462" />
-    <state x="-1343" y="358" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593954952848">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1343" y="358" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593954952848" />
-    <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog" timestamp="1593303423504">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="65" y="64" width="1236" height="600" key="DiffContextDialog/-1366.148.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1592443877586" />
-    <state x="-1828" y="5" width="1736" height="856" key="DiffContextDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593303423504" />
-    <state x="-1226" y="237" key="EnvironmentVariablesDialog" timestamp="1594161370399">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1226" y="237" key="EnvironmentVariablesDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594161370399" />
-    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1594255032095">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594255032095" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1594162548343">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594162548343" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1594162548343">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594162548343" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1594162548342">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594162548342" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1594162548343">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594162548343" />
-    <state width="1877" height="179" key="GridCell.Tab.1.bottom" timestamp="1593959383496">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593959383496" />
-    <state width="1877" height="179" key="GridCell.Tab.1.center" timestamp="1593959383496">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="179" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593959383496" />
-    <state width="1877" height="179" key="GridCell.Tab.1.left" timestamp="1593959383496">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="179" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593959383496" />
-    <state width="1877" height="179" key="GridCell.Tab.1.right" timestamp="1593959383496">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="179" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593959383496" />
-    <state x="-1822" y="199" key="SettingsEditor" timestamp="1594254989731">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1822" y="199" key="SettingsEditor/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594254989731" />
-    <state x="-1249" y="137" key="VCS.ChangeListViewerDialog" timestamp="1593303413716">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1249" y="137" key="VCS.ChangeListViewerDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593303413716" />
-    <state x="-1368" y="166" key="Vcs.Push.Dialog.v2" timestamp="1593959277130">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1368" y="166" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593959277130" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594288686077">
+    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594741532918" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594665558171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594288686077" />
-    <state x="-1264" y="165" width="607" height="536" key="find.popup" timestamp="1594291473653">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594665558171" />
+    <state x="-1264" y="165" width="607" height="536" key="find.popup" timestamp="1594741519664">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
-    <state x="467" y="176" width="607" height="536" key="find.popup/-1366.148.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1592443768407" />
-    <state x="-1264" y="165" width="607" height="536" key="find.popup/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594291473653" />
-    <state x="-1251" y="224" key="git4idea.merge.GitPullDialog" timestamp="1593959369444">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1251" y="224" key="git4idea.merge.GitPullDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1593959369444" />
-    <state x="-1304" y="197" key="run.anything.popup" timestamp="1594160554089">
-      <screen x="-1920" y="-87" width="1920" height="1040" />
-    </state>
-    <state x="-1304" y="197" key="run.anything.popup/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594160554089" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java</url>
-          <line>12</line>
-          <properties class="br.com.casadocodigo.loja.conf.ServletSpringMVC" method="getRootConfigClasses">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="-1264" y="165" width="607" height="536" key="find.popup/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1594741519664" />
   </component>
 </project>
