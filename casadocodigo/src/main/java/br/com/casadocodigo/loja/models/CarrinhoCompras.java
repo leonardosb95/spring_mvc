@@ -7,12 +7,14 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.WebApplicationContext;
 
 @Component // Para que o Spring possa reconhecer esse cara, não sendo um DAO, Entity e
 			// etc..
-@Scope(value = WebApplicationContext.SCOPE_SESSION) // Escopo de sessão, cria-se um novo carrinho de compras para cada
+@Scope(value = WebApplicationContext.SCOPE_SESSION, // Escopo de sessão, cria-se um novo carrinho de compras para cada
+		proxyMode = ScopedProxyMode.TARGET_CLASS) // Proxy fazendo a ligação direta para o carrinho de compras
 													// usuario
 public class CarrinhoCompras implements Serializable {
 	private static final long serialVersionUID = 1L;// Guarda o objeto em arquivo,
@@ -49,6 +51,13 @@ public class CarrinhoCompras implements Serializable {
 
 	public Collection<CarrinhoItem> getItens() {
 		return itens.keySet();
+	}
+
+	public void remover(Integer produtoId, TipoPreco tipoPreco) {
+		Produto produto = new Produto();
+		produto.setId(produtoId);
+		itens.remove(new CarrinhoItem(produto, tipoPreco));
+
 	}
 
 }

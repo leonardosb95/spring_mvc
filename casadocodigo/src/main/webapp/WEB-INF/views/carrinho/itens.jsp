@@ -118,7 +118,8 @@
 							value="${carrinhoCompras.getQuantidade(item)}" /></td>
 						<td class="numeric-cell">${carrinhoCompras.getTotal(item)}</td>
 						<td>
-							<form action="" method="post">
+							<form action="${s:mvcUrl('CCC#remover').arg(0,item.produto.id)
+							.arg(1,item.tipoPreco).build()}" method="post">
 								<input type="image" src="/excluir.png" alt="Excluir"
 									title="Excluir" />
 							</form>
@@ -129,7 +130,10 @@
 			<tfoot>
 				<tr>
 					<td colspan="3">
+					<form action="${s:mvcUrl('PC#finalizar').build()}" method="post">
 					<input type="submit" class="checkout" name="checkout" value="Finalizar compra" />
+					</form>
+					
 					</td>
 					<td class="quantity-input-cell">
 						<input type="submit" class="update-cart" disabled="disabled" name="update" value="" />
