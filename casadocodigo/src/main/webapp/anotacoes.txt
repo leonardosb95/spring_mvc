@@ -245,7 +245,7 @@ Escopo Sessão
 						tem que se criar um controller novo
 		Escopo default é o escopo de aplicação
 					
-			
+-----------------Aula 13  Carrinho de compras-----------------------------------------------------------------------			
 		
 	
 
