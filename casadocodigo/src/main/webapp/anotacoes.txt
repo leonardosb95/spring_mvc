@@ -250,6 +250,38 @@ Escopo Sessão
 	
 
 
+----------------Aula14 restTemplate-----------------------------------------------------------------------------
+restTemplate
+	responsabilidade de realizar requisições
+	
+lib do jackson
+		para fazer requisições com restTemplate
+		
+Requisições assíncronas
+	a requisição leva um tempo para atender a requisição e retornar uma resposta
+	o tomcat entra no código
+		com uma unica thread fica esperando para executar o código
+		para então liberar o servidor
+		O servidor web não assíncrono
+		Callable<>
+			É uma api do Servelet State
+			O tomcat vai entender que o nosso retorno e assíncrono
+			É um Objeto
+			Libera os usuarios, eles ficam usando a aplicação
+			E apenas um usuario fica aguardando se o resultado deu certo ou não
+			return ()->{
+			
+			}
+			Cria uma classe anonima
+			Ja infere o tipo do retorno
+			Jmeter que faz alguns testes de perfomance
+			
+			
+			
+			
+			
+		
+		
 
 
 

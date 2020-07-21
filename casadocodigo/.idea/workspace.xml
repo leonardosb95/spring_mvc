@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="" />
+    <list default="true" id="d4ee1553-4954-4313-8954-2ffd5049936e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/PagamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/PagamentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/CarrinhoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/CarrinhoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/anotacoes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/PagamentoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/controllers/PagamentoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/CarrinhoItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/models/CarrinhoItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.casadocodigo/casadocodigo/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="D:/porto-seguro/nova-portonet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,14 +52,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1595262251172">
+    <state x="-1180" y="188" key="FileChooserDialogImpl" timestamp="1595334129242">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1595262251172" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595262222143">
+    <state x="-1180" y="188" key="FileChooserDialogImpl/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1595334129242" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595285079427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1595262222143" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-87.1920.1040@0.0.1366.728" timestamp="1595285079427" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595334105813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-87.1920.1040@-1920.-87.1920.1040" timestamp="1595334105813" />
     <state x="-1264" y="165" width="607" height="536" key="find.popup" timestamp="1594741519664">
       <screen x="-1920" y="-87" width="1920" height="1040" />
     </state>
